@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #e5edf4;
+    
+}
+.bir{
+    display: flex;
+    list-style: none;
+    
+    gap: 20px;
+}
+.iki{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+.navbir{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0 100px;
+}
+li{
+    font-family: sans-serif;
+}
+.Join{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 8px;
+}
+.ule{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+img{
+height: 30px;
+padding: 20px 100px;
+}
+.box{
+background-color: #e9e9ea;
+height: 20px;
+width: 130px;
+position: relative;
+left: 1166px;
+bottom: 50px;
+border-radius: 5px;
+font-size: 13px;
+text-indent: 5px;
+}
+.gray{
+    background-color: grey;
+    width: 1341px;
+    height: 2px;
+    margin: 10px;
+    padding: 0 75px;
+}
+.box3 img{
+    height: 300px;
+    width: 600px;
+    position: relative;
+    bottom: 30px;
+}
+.ulo{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+main{
+    display: flex;
+}
+.il{
+    font-size: 45px;
+    position: relative;
+    right: 35px;
+    color: #005499;
+}
+.il:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ol{
+    position: relative;
+    right: 30px;
+}
+footer{
+    display: flex;
+}
+footer img{
+    height: 180px;
+    width: 300px;
+}
+.text{
+    height: 40px;
+    width: 300px;
+    padding: 0 100px;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.sekil4{
+    cursor: pointer;
+}
+.sekil5{
+    cursor: pointer;
+}
+footer :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
